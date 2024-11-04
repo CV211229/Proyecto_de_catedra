@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const mysql = require('mysql2/promise'); // Asegúrate de usar mysql2 con soporte de promesas
+const mysql = require('mysql2/promise'); //usamos mysql2 con soporte de promesas
 
 const app = express();
 app.use(cors());
